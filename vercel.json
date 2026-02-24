@@ -21,14 +21,5 @@
       "path": "/api/cron",
       "schedule": "*/5 * * * *"
     }
-  ],
-  "env": {
-    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
-    "TELEGRAM_ADMIN_IDS": "@telegram_admin_ids",
-    "VPS_AGENT_URL": "@vps_agent_url",
-    "VPS_AGENT_SECRET": "@vps_agent_secret",
-    "GOOGLE_LOG_SHEET_ID": "@google_log_sheet_id",
-    "GOOGLE_CLIENT_EMAIL": "@google_client_email",
-    "GOOGLE_PRIVATE_KEY": "@google_private_key"
-  }
+  ]
 }
