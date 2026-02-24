@@ -1,0 +1,19 @@
+{
+  "name": "botscan-telegram-vps-monitor",
+  "version": "1.0.0",
+  "description": "Telegram Bot for VPS monitoring & WhatsApp bot log viewer",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "deploy": "vercel --prod",
+    "set-webhook": "node scripts/setWebhook.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "googleapis": "^131.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
